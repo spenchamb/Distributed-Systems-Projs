@@ -1,0 +1,12 @@
+{
+  "num_clients" : 3,
+  "num_replicas": 3,
+  
+  "client_start_port": 3100,
+  "replica_start_port": 3200,
+
+  "redis_ports": [3400, 3401, 3402, 3403, 3404, 3405],
+
+  "timeout": 1.4,
+  "num_requests": 5
+}

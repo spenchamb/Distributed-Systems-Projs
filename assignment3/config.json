@@ -1,0 +1,10 @@
+{
+  "num_mappers": 2,
+  "num_reducers": 2,
+
+  "fn": "wordcount.py",
+  "_fn": "invertedindex.py",
+
+  "files": ["data/sherlock1.txt", "data/sherlock2.txt", "data/sherlock3.txt"],
+  "_files": ["data/test1.txt", "data/test2.txt", "data/test3.txt"]
+}
